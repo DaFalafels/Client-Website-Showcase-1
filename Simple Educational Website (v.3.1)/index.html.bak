@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Logic Don't Care</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<h1>Logic Don't Care</h1>
+	</header>
+
+	<div class="top-nav" id="myTopNav">
+		<a href="index.html" class="active">Home</a>
+		<a href="videos.html">Videos</a>
+		<a href="posts.html">Posts</a>
+		<a href="about-me.html">About Me</a>
+	</div>
+
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="post-card col-6">
+			<h1 class="post">Welcome!</h1>
+			<p>Welcome to my educational website "Logic Don't Care". My name is Anas Kuzechie, and this website covers topics that include, but are not limited to:</p>
+			<ul>
+				<li> Assembly and C programming of AT89S52 microcontroller via Keil uVision5.
+				<li> Assembly and C programming of ATmega328, ATmega8 and ATtiny85 microcontrollers via Arduino IDE.
+				<li> Creating Arduino libraries for different I/O devices/sensors using C++ and assembly codes.
+				<li> C++, Matlab and LabVIEW programming.
+				<li> HTML, CSS and JavaScript programming.
+				<li> Arduino, ESP8266 and ESP32 projects.
+				<li> Analog and digital circuit projects.
+			</ul>
+			<p><br>This website contains videos from my educational YouTube channel along with posts I upload from time to time.</p>
+		</div>
+		<div class="col-3"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-3"></div>
+		<div class="post-card col-6">
+			<h1 class="post">My YouTube Channel Trailer</h1>
+			<div class="iframe-container">
+				<iframe class="responsive-iframe" src="https://www.youtube.com/embed/A5Ldejr_UL8" title="YouTube video player" frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col-3"></div>
+	</div>
+
+	<footer>
+		<p>Anas Kuzechie 2022</p>
+	</footer>
+
+</body>
+</html>
